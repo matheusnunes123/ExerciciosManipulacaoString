@@ -28,5 +28,5 @@ function expandirNoCentro(texto, esquerda, direita) {
   }
 
   const entrada1 = "babad";
-  const saida = palindromoMaisLongo(entrada2);
+  const saida = palindromoMaisLongo(entrada1);
   console.log(saida); // Output: "bab"
