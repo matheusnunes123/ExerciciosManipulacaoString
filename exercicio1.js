@@ -1,5 +1,7 @@
+
+function reverterFrase(frase){
+    return frase.split(' ').reverse().join(' ');
+}
+
 let frase = 'Hello, World! OpenAI is amazing.'
-
-let fraseReversa = frase.split(' ').reverse().join(' ');
-
-console.log(fraseReversa)
+console.log(reverterFrase(frase))
