@@ -27,4 +27,6 @@ function verificarAnagramaPalindromo(texto){
 
 }
 
-console.log(verificarAnagramaPalindromo(''))
+console.log(verificarAnagramaPalindromo('Race car'))
+console.log(verificarAnagramaPalindromo('Race ca'))
+console.log(verificarAnagramaPalindromo('teteg'))
